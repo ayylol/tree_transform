@@ -1,0 +1,5 @@
+Compile:
+gcc main.c -lm
+
+Use:
+a.out <input.txt >output.txt
