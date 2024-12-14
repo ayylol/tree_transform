@@ -57,9 +57,9 @@ void print_tree(struct Node* n, int depth){
 struct Node* scan_node(){
     struct Node* n = malloc(sizeof(struct Node));
     // Y is up
-    scanf("( %lf %lf %lf )", &n->p.x, &n->p.y, &n->p.z);
+    //scanf("( %lf %lf %lf )", &n->p.x, &n->p.y, &n->p.z);
     // Z is up
-    //scanf("( %lf %lf %lf )", &n->p.x, &n->p.z, &n->p.y);
+    scanf("( %lf %lf %lf )", &n->p.x, &n->p.z, &n->p.y);
     n->parent=NULL;
     n->num_children=0;
     n->cap_children=16;
